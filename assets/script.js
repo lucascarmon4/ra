@@ -18,7 +18,7 @@ btn.addEventListener("click", () => {
     } 
     if (video) {
         modelo3d.setAttribute("scale", "0 0 0");
-        modeloVideo.setAttribute("scale", "2 2 2");
+        modeloVideo.setAttribute("scale", "1 1 1");
     } else {
         modeloVideo.setAttribute("scale", "0 0 0");
         modelo3d.setAttribute("scale", "1 1 1");
